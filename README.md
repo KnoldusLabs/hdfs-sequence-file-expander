@@ -15,7 +15,7 @@
   #### Note
   * For `HDFS_DIR` the top level directory is required, it will find all the sequence files under it directories may also contain files other then sequence file but that's okay, given that in case you just need to expand one file you may simple give the absolute path to the sequence file for `env` var `HDFS_DIR`
   
-  ##Quick Test
+  ## Quick Test
   * For a quick test you may pull this image `shuhamknoldus/hdfs-container:3.2.1` the `user` in this image is root so you may run 
   `docker run -p9000:9000 -p9870:9870 shuhamknoldus/hdfs-container:3.2.1` then you can simply use this without having to setup HDFS locally
   * After saving you can save some sequence file in to the hdfs
